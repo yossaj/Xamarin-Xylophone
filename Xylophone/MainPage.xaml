@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Xylophone.MainPage">
     <StackLayout>
-        <Frame BackgroundColor="#f44336" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#FFEB3B" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#FFC107" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#4CAF50" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#009688" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0"/>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0"/>
+        <Button BackgroundColor="#f44336" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound"/>
+        <Button BackgroundColor="#FFEB3B" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#FFC107" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#4CAF50" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#009688" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#2196F3" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#9C27B0" VerticalOptions="FillAndExpand" CornerRadius="0"/>
     </StackLayout>
 </ContentPage>

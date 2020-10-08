@@ -14,5 +14,12 @@ namespace Xylophone
         {
             InitializeComponent();
         }
+
+        void PlaySound(object sender, System.EventArgs e) {
+            var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+            player.Load("note1.wav");
+            player.Play();
+
+        }
     }
 }
