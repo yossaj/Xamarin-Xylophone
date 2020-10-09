@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Xylophone.MainPage">
     <StackLayout>
-        <Button BackgroundColor="#f44336" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound"/>
-        <Button BackgroundColor="#FFEB3B" VerticalOptions="FillAndExpand" CornerRadius="0"/>
-        <Button BackgroundColor="#FFC107" VerticalOptions="FillAndExpand" CornerRadius="0"/>
-        <Button BackgroundColor="#4CAF50" VerticalOptions="FillAndExpand" CornerRadius="0"/>
-        <Button BackgroundColor="#009688" VerticalOptions="FillAndExpand" CornerRadius="0"/>
-        <Button BackgroundColor="#2196F3" VerticalOptions="FillAndExpand" CornerRadius="0"/>
-        <Button BackgroundColor="#9C27B0" VerticalOptions="FillAndExpand" CornerRadius="0"/>
+        <Button BackgroundColor="#f44336" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note1.wav"/>
+        <Button BackgroundColor="#FFEB3B" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note2.wav"/>
+        <Button BackgroundColor="#FFC107" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note3.wav"/>
+        <Button BackgroundColor="#4CAF50" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note4.wav"/>
+        <Button BackgroundColor="#009688" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note5.wav"/>
+        <Button BackgroundColor="#2196F3" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note6.wav"/>
+        <Button BackgroundColor="#9C27B0" VerticalOptions="FillAndExpand" CornerRadius="0" Clicked="PlaySound" BindingContext="note7.wav"/>
     </StackLayout>
 </ContentPage>

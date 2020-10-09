@@ -16,8 +16,10 @@ namespace Xylophone
         }
 
         void PlaySound(object sender, System.EventArgs e) {
+            string data = ((Button)sender).BindingContext as string;
+        
             var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
-            player.Load("note1.wav");
+            player.Load(data);
             player.Play();
 
         }
